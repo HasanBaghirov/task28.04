@@ -1,0 +1,113 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: tomato;
+}
+
+header nav {
+  background-color: #4c4c4c;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav div {
+  padding-left: 160px;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-right: 100px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: white;
+  margin-top: 65px;
+}
+
+header .text a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  width: 150px;
+  height: 50px;
+  border-radius: 19%;
+  color: white;
+  background-color: #e32697;
+  font-size: 20px;
+}
+
+main {
+  background-color: white;
+}
+
+main section .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+main section .box .boxt {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  font-size: 20px;
+  row-gap: 15px;
+  margin-top: 50px;
+}
+
+main section .box .gphoto {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+footer div {
+  background-color: black;
+  width: 100vw;
+  height: 60px;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
